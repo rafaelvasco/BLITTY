@@ -1,0 +1,1 @@
+.\BLITTYC\bin\Debug\net6.0\BLITTYC.exe Build -g C:\Dev\c#\BLITTY\BLITTY

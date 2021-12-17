@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLITTY", "BLITTY\BLITTY.csproj", "{CF2D5E2E-50DB-4D54-ADE3-2131202C8D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLITTY_Demos", "BLITTY_Demos\BLITTY_Demos.csproj", "{1F45229C-5E83-45B8-99FD-21A9457872B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLITTYC", "BLITTYC\BLITTYC.csproj", "{322CAF97-0073-41B3-B805-097E996321A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2D5E2E-50DB-4D54-ADE3-2131202C8D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2D5E2E-50DB-4D54-ADE3-2131202C8D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2D5E2E-50DB-4D54-ADE3-2131202C8D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2D5E2E-50DB-4D54-ADE3-2131202C8D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F45229C-5E83-45B8-99FD-21A9457872B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F45229C-5E83-45B8-99FD-21A9457872B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F45229C-5E83-45B8-99FD-21A9457872B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F45229C-5E83-45B8-99FD-21A9457872B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322CAF97-0073-41B3-B805-097E996321A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322CAF97-0073-41B3-B805-097E996321A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322CAF97-0073-41B3-B805-097E996321A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322CAF97-0073-41B3-B805-097E996321A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9529A4D1-6698-42E6-BE37-C1ADF0BE1E8D}
+	EndGlobalSection
+EndGlobal

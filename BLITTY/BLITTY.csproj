@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+	<ItemGroup>
+		<ContentWithTargetPath Include="$(MSBuildThisFileDirectory)\Content\base.pak">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>Content\base.pak</TargetPath>
+		</ContentWithTargetPath>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(OS)' == 'Windows_NT'">
+		<ContentWithTargetPath Include="$(MSBuildThisFileDirectory)\Runtime\win-x64\SDL2.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>SDL2.dll</TargetPath>
+		</ContentWithTargetPath>
+		<ContentWithTargetPath Include="$(MSBuildThisFileDirectory)\Runtime\win-x64\BGFX.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>BGFX.dll</TargetPath>
+		</ContentWithTargetPath>
+        <ContentWithTargetPath Include="$(MSBuildThisFileDirectory)\Runtime\win-x64\FMOD.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>FMOD.dll</TargetPath>
+        </ContentWithTargetPath>
+	</ItemGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="MessagePack" Version="2.3.85" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <EditorConfigFiles Remove="C:\Dev\C#\BLITTY\BLITTY\.editorconfig" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <None Include="C:\Dev\C#\BLITTY\BLITTY\.editorconfig" />
+    </ItemGroup>
+
+</Project>

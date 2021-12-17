@@ -1,0 +1,1 @@
+.\BLITTYC\bin\Debug\net6.0\BLITTYC.exe ParsePak -p C:\Dev\c#\BLITTY\BLITTY\Content\base.pak

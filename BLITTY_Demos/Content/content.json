@@ -1,0 +1,43 @@
+﻿{
+  "resources": {
+    "demo": {
+      "sounds": [
+        {
+          "id": "LaserShoot",
+          "path": "Audio/laserShoot.wav",
+          "streamed": false
+        },
+        {
+          "id": "Explosion",
+          "path": "Audio/explosion.wav",
+          "streamed": false
+        },
+        {
+          "id": "Jump",
+          "path": "Audio/jump.wav",
+          "streamed": false
+        },
+        {
+          "id": "PickupCoin",
+          "path": "Audio/pickupCoin.wav",
+          "streamed": false
+        },
+        {
+          "id": "BlipSelect",
+          "path": "Audio/blipSelect.wav",
+          "streamed": false
+        },
+        {
+          "id": "Explosion2",
+          "path": "Audio/Explosion Fireworks_01.ogg",
+          "streamed": false
+        },
+        {
+          "id": "StageKen",
+          "path": "Audio/205 STAGE GEN.mp3",
+          "streamed": false
+        }
+      ]
+    }
+  }
+}

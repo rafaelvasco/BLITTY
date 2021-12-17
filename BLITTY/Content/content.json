@@ -1,0 +1,26 @@
+﻿{
+  "resources": {
+    "base": {
+      "shaders": [
+        {
+          "id": "BaseShader",
+          "vs_path": "Base/Shaders/Base/base_vs.sc",
+          "fs_path": "Base/Shaders/Base/base_fs.sc",
+          "backends": [ "Direct3D", "OpenGL" ]
+        }
+      ],
+      "text_files": [],
+      "images": [
+        {
+          "id": "Logo",
+          "path": "Base/Images/blitty_logo.png"
+        },
+        {
+          "id": "LogoSmall",
+          "path": "Base/Images/blitty_logo_small.png"
+        }
+      ],
+      "fonts": []
+    }
+  }
+}

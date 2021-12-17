@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BLITTYC": {
+      "commandName": "Project",
+      "commandLineArgs": "Build -g C:\\Dev\\c#\\BLITTY\\BLITTY",
+      "hotReloadEnabled": false
+    }
+  }
+}

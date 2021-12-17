@@ -1,0 +1,8 @@
+{
+  "Title": "BLITTY 0.1",
+  "WindowWidth": 800,
+  "WindowHeight": 600,
+  "Fullscreen": false,
+  "EnableAudio": true,
+  "PreloadPaks":  ["demo"]
+}
